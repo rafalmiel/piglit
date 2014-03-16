@@ -1865,6 +1865,11 @@ add_plain_test(arb_provoking_vertex, 'arb-provoking-vertex-initial')
 add_plain_test(arb_provoking_vertex, 'arb-quads-follow-provoking-vertex')
 add_plain_test(arb_provoking_vertex, 'arb-xfb-before-flatshading')
 
+# Group ARB_query_buffer_object
+arb_query_buffer_object = Group()
+spec['ARB_query_buffer_object'] = arb_query_buffer_object;
+add_plain_test(arb_query_buffer_object, 'arb_query_buffer_object-out-of-bound')
+
 # Group ARB_robustness
 arb_robustness = Group()
 spec['ARB_robustness'] = arb_robustness
