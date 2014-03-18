@@ -11,5 +11,6 @@ link_libraries (
 
 piglit_add_executable (arb_query_buffer_object-out-of-bound query_buffer_object-out-of-bound.c)
 piglit_add_executable (arb_query_buffer_object-binding query_buffer_object-binding.c)
+piglit_add_executable (arb_query_buffer_object-result query_buffer_object-result.c)
 
 # vim: ft=cmake:
